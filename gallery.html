@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Gallery</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: white;
+  background-color: #353535
+}
+ p {
+  font-size: 15px;
+  color: white;
+ }
+
+/* Style the header */
+.header {
+  background-color: #353535;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #B6B6B6;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #353535;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 48.995%;
+  padding: 10px;
+  margin-top: 20px;
+
+}
+.media {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  text-align: left;
+  font-family: helvetica, sans-serif;
+  color: white;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #292828;
+  margin-top: 20px;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+
+</head>
+<body>
+
+<div class="header">
+  <h1>Gallery</h1>
+  <h3>Makena Jackson</h3>
+</div>
+
+<div class="topnav">
+  <a href="index.html">Home</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="ArtistStatement.html">Artist Statement</a>
+  <a href="Contact.html">Contact</a>
+</div>
+
+<div class="row">
+
+  <div class="column">
+    <div class="media">
+       <a href="Art074.html" target=blank><img src="GalleryArt074.png" alt="Art074" />
+       </a>
+    </div>
+    <div class="content">
+    <h2>Art 074: Introduction to Digital Media</h2>
+    <p>This is a collection of my projects throughout the Art074 course at San Jose State University.</p>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="media">
+      <a href="Design.html" target=blank><img src="GalleryDesign.png" alt="Design" />
+      </a>
+    </div>
+    <div class="content">
+    <h2>Design</h2>
+    <p>These are a collection of design works I've created throughout my time as San Jose State University. It features work from multiple courses as well as personal work.</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>ePortfolio</h2>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,60 @@
+
+.wrapper {
+	width: 40%; 
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+body {
+	background-image: url(final.gif);
+	background-size: small;
+	font-family: "Bentham", Helvetica, Arial, sans-serif;
+	font-size: 1.8em;
+}
+
+h1{
+	text-align: center;
+	color: yellow;
+}
+
+
+p {
+	margin-right: 20px;
+	line-height: 1.2em;
+	font-family: "Bentham";
+
+}
+
+  .row img {	
+	padding-top: 20px;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+
+ }
+ 
+  .row1 img {	
+	margin-right: auto;
+	margin-left: auto;
+	padding: 0px;
+
+ }
+ 
+  .row2 img {	
+	margin-left: 20px;
+	padding: 60px;
+ }
+
+ 	.row3 img {
+ 		margin-right: 20px;
+ 		padding: 100px;
+ 	}
+
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+	padding-top: 150px;
+}
+
+
